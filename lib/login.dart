@@ -80,7 +80,7 @@ class Login extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         const Text(
-          "Aplikasi",
+          applicationStr,
           style: TextStyle(
             fontSize: 16,
             color: Color(0xFF1C1C1C),
@@ -88,7 +88,7 @@ class Login extends StatelessWidget {
           ),
         ),
         const Text(
-          "SIMANDOR",
+          applicationName,
           style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
@@ -98,7 +98,7 @@ class Login extends StatelessWidget {
           ),
         ),
         const Text(
-          "Kabupaten Balangan",
+          clientAppName,
           style: TextStyle(
             fontSize: 16,
             color: Color(0xFF1C1C1C),
