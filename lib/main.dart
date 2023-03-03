@@ -3,12 +3,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:simandoronline/formkib_lite.dart';
 
-import 'detail.dart';
-import 'formkib.dart';
 import 'formlogin.dart';
 import 'home.dart';
+import 'constants.dart';
 
 void main() {
   HttpOverrides.global = new MyHttpOverrides();
@@ -50,7 +48,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'SIMANDOR',
+      title: applicationName,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
