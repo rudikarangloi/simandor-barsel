@@ -231,16 +231,18 @@ class _FormkibliteState extends State<Formkiblite> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     userName = prefs.get('userName');
 
-    // print('======SIMPAN======');
-    // print(idt +
-    //     ' : ' +
-    //     kdUpb +
-    //     ' : ' +
-    //     kdAset +
-    //     ' : ' +
-    //     kode_bar +
-    //     ' : ' +
-    //     userName);
+    print('======SIMPAN======');
+    print(idt +
+        ' : ' +
+        kdUpb +
+        ' : ' +
+        kdAset +
+        ' : ' +
+        kode_bar +
+        ' : ' +
+        widget.gCode +
+        ' : ' +
+        userName);
 
     var response = await post(Uri.parse("$BASE_URL/update_tabel_kib.php"),
         headers: {
