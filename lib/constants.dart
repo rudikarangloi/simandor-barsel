@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
 //For developmet on localhost
-const String BASE_URL = "http://192.168.1.6:81/SimBADA_2020/api";
+//const String BASE_URL = "http://192.168.1.6:81/SimBADA_2020/api";
 // const String BASE_URL_IMAGES = "http://192.168.43.23:81/sipanda-bmd/images/";
 // const String BASE_URL_IMAGES_SIMANDOR =
 //     "http://192.168.43.23:81/sipanda-bmd/admin/simandor/images";
 
-//const String BASE_URL = "https://simbada2020.baritoselatankab.go.id/api";
-const String BASE_URL_IMAGES = "https://sipandabmd.balangankab.go.id/images";
+const String BASE_URL = "https://simbada2020.baritoselatankab.go.id/api";
+const String BASE_URL_IMAGES =
+    "https://simbada2020.baritoselatankab.go.id/images";
 const String BASE_URL_IMAGES_SIMANDOR =
-    "https://sipandabmd.balangankab.go.id/admin/simandor/images";
+    "https://simbada2020.baritoselatankab.go.id/images";
 
 const applicationStr = "Aplikasi";
 const applicationName = "SIMANDOR";
